@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#taskList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.completeBtn {
+    margin-left: 10px;
+}
+
+.task-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.deleteBtn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
