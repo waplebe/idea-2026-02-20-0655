@@ -1,3 +1,4 @@
+```python
 from flask import Flask, jsonify, request
 from flask_sqlalchemy import SQLAlchemy
 import os
@@ -77,3 +78,4 @@ if __name__ == '__main__':
     load_dotenv()
     db.init_app(app)
     app.run(debug=True)
+```

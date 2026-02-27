@@ -1,3 +1,4 @@
+```javascript
 document.addEventListener('DOMContentLoaded', function() {
     const addTaskBtn = document.getElementById('addTaskBtn');
     const taskList = document.getElementById('taskList');
@@ -82,3 +83,4 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+```
